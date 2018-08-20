@@ -15,3 +15,6 @@ Ejecutar desde la terminal:
 
 `vagrant ssh`
 
+Si se desea guardar los cambios en su box se ejecuta:
+
+`vagrant package --output name.box`
