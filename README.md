@@ -1,7 +1,9 @@
 # Tools-CIC
-Descubrimiento del Conocimiento Usando Herramientas de Big Data
+Creación del ambiente de desarrollo.
 
 Ejecutar desde la terminal:
+
+`mkdir ~/Desarrollo/`
 
 `mkdir ~/Desarrollo/`
 
@@ -9,7 +11,7 @@ Ejecutar desde la terminal:
 
 `vagrant plugin install vagrant-vbguest`
 
-Descargar el archivo VagrantFile de: 
+Copiar el archivo VagrantFile en ~/Desarrollo: 
 
 `vagrant up`
 
