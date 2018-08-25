@@ -3,13 +3,13 @@ Descubrimiento del Conocimiento Usando Herramientas de Big Data
 
 Ejecutar desde la terminal:
 
-`mkdir ~/Practicas/`
+`mkdir ~/Desarrollo/`
 
-`cd ~/Practicas`
-
-`vagrant init nogala/centos --box-version 1`
+`cd ~/Desarrollo`
 
 `vagrant plugin install vagrant-vbguest`
+
+Descargar el archivo VagrantFile de: 
 
 `vagrant up`
 
