@@ -7,8 +7,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 8080, host: 8080, auto_correct: true
   config.vm.provider "virtualbox" do |vb|
      vb.name = "P429CICJL2-Des-premise"
-     vb.memory = "4096"
-     vb.cpus = "2"
+     vb.memory = "2048"
+     vb.cpus = "1"
    end
   config.vm.hostname = "P429CICJL2-Des-premise"
 end
